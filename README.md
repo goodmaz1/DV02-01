@@ -16,7 +16,8 @@ So the reason this took me so long is because I tried to fix the bug where the w
 
 Honestly? It's been two/three weeks of ripping my hair out over this bug and I"m done with it. It's mostly good enough
 
-NOTE: I get a curl error 56 for some reason, but after an hour+ of searching, that seems unrelated. 
+NOTE: I get a curl error 56 for some reason, but after an hour+ of searching, that seems unrelated.
+
 NOTE: Also, whenever there's a collision between two objects (usually two daleks), there's a chance that one of them just shoots off into infinity, never to be seen again - even if I constrain the y-position. Looked into that too - no idea why. Yay Unity Physics.
 
 NOTE (Final): This is the same project for both the Development & the Project for M01-Dv/Pr02.01
