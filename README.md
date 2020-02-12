@@ -2,9 +2,13 @@
 Kinematic Seek, Flee &amp; Arrive Dev
 
 Dark Blue Box (TARDIS) - stationary target
+
 Orange Dalek - SEEK function
+
 Red Dalek    - FLEE function
+
 White Dalek  - Arrive function
+
 Blue Dalek   - Arrive function
 
 
