@@ -1,2 +1,15 @@
 # DV02-01
 Kinematic Seek, Flee &amp; Arrive Dev
+
+Dark Blue Box (TARDIS) - stationary target
+Orange Dalek - SEEK function
+Red Dalek    - FLEE function
+White Dalek  - Arrive function
+Blue Dalek   - Arrive function
+
+
+So the reason this took me so long is because I tried to fix the bug where the white and blue Daleks (the Arrive ones) get close to the target, stop, and then move away after a second...only to come back, stop, and move away again, oscillating on an endless loop. I *know* it's because I'm changing the acceleration applied by a fractional amount each time update is called, and over time that builds up and sends the units back in the opposite direction, but trying to set the velocities to zero once it reaches the target means that if I move the target, it doesn't have any velocity to start moving again.
+
+Honestly? It's been two weeks of ripping my hair out over this bug and I"m done with it. It's mostly good enough
+
+NOTE: I get a curl error 56 for some reason, but after an hour of searching, that seems unrelated. 
