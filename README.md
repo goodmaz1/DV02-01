@@ -1,6 +1,8 @@
 # DV02-01
 ## Kinematic Seek, Flee &amp; Arrive Dev
 
+Build: https://goodmaz1.github.io/DV02-01/
+
 Dark Blue Box (TARDIS) - stationary target
 
 Orange Dalek - SEEK function
